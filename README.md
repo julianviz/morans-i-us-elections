@@ -11,7 +11,14 @@ geographic adjacency as a predictor of voting clustering across the
 2016, 2020, and 2024 US presidential elections. We have added the corresponding calculations
 for the 2008 and 2012 elections, which agree with our reported findings in the article.
 
+## Data and Code
+
+Full dataset, adjacency matrices, and R scripts available on Zenodo:
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18919183.svg)](https://doi.org/10.5281/zenodo.18919183)
+
 ## Repository Structure
+The full structure used in the Zenodo archive after extraction is:
+
 ```
 ├── MoransICalculations.R              # Moran's I spatial autocorrelation calculation
 ├── MapVisualizations.R                # Choropleth map visualization
@@ -28,9 +35,12 @@ for the 2008 and 2012 elections, which agree with our reported findings in the a
     └── MoransI_AllResults.csv      # Full results for all combinations
 ```
 
+This repository contains the R scripts and Results only. Download the 
+full dataset from Zenodo to replicate the analysis.
+
 ## Usage
 
-### Moran's I Calculation (MoranI.R)
+### Moran's I Calculation (MoransICalculation.R)
 
 Edit the two configuration lines at the top:
 ```r
@@ -41,7 +51,7 @@ selected_matrix <- "Data/GeographicalAdjacencyMatrix/CountyGeographicalAdjacency
 Run the script. Output includes observed Moran's I, expected value, 
 standard deviation, and p-value.
 
-### Choropleth Maps (Maps.R)
+### Choropleth Maps (MapVisualizations.R)
 
 Edit the configuration block at the top of each section to select 
 file and column. Covers religion, vote share (2008–2024), median 
@@ -64,9 +74,14 @@ These correspond to Tables 1–3 in the paper.
 | County adjacency | US Census Bureau 2024 County Adjacency File |
 
 **Note:** Shannon County, SD was renamed Oglala Lakota County in 2015 
-(FIPS 46113 → 46102). Modified in 2008, 2012 and 2015 datasets accordingly.
+(FIPS 46113 → 46102). Modified in 2008, 2012 and 2016 datasets accordingly.
 
 ## Requirements
+
+Download the full dataset from Zenodo before running the scripts:  
+https://doi.org/10.5281/zenodo.18919183
+
+Then install the packages:
 ```r
 install.packages(c("rlang","ggplot2", "usmap", "dplyr", "ape"))
 ```
