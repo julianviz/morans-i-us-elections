@@ -68,7 +68,7 @@ These correspond to Tables 1–3 in the paper.
 
 ## Requirements
 ```r
-install.packages(c("ggplot2", "usmap", "dplyr", "ape"))
+install.packages(c("rlang","ggplot2", "usmap", "dplyr", "ape"))
 ```
 
 ## Citation
