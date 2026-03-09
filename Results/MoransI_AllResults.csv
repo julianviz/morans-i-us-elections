@@ -1,0 +1,81 @@
+Year,Party,Adjacency Matrix,Moran's I,expected,sd,P-value
+2008,Republican,Geographical adjacency,0.6067312,-0.0003218539,0.01059199,0
+2008,Republican,First Religion Adjacency,0.2022832,-0.0003218539,0.0009305866,0
+2008,Republican,First Religion CHR Adjacency,0.4049794,-0.0003218539,0.001214518,0
+2008,Republican,Second Religion CHR Adjacency,0.009013367,-0.0003218539,0.001323505,0.000000000001745937
+2008,Republican,Third Religion CHR Adjacency,0.01728184,-0.0003218539,0.001309457,0
+2008,Republican,Fourth Religion CHR Adjacency,0.008828573,-0.0003218539,0.00144978,0.0000000002761689
+2008,Republican,Median Household Income Adjacency,0.02507928,-0.0003218539,0.0009100052,0
+2008,Republican,Urbanization Level Adjacency,0.0853906,-0.0003218539,0.00101742,0
+2008,Democrat,Geographical adjacency,0.6014903,-0.0003218539,0.01059195,0
+2008,Democrat,First Religion Adjacency,0.2113218,-0.0003218539,0.0009305825,9
+2008,Democrat,First Religion CHR Adjacency,0.4035128,-0.0003218539,0.001214513,0
+2008,Democrat,Second Religion CHR Adjacency,0.009217267,-0.0003218539,0.001323499,0.0000000000005697665
+2008,Democrat,Third Religion CHR Adjacency,0.01640627,-0.0003218539,0.001309451,0
+2008,Democrat,Fourth Religion CHR Adjacency,0.008923231,-0.0003218539,0.001449773,0.0000000001806886
+2008,Democrat,Median Household Income Adjacency,0.02673873,-0.0003218539,0.0009100012,0
+2008,Democrat,Urbanization Level Adjacency,0.09151195,-0.0003218539,0.00101742,0
+2012,Republican,Geographical adjacency,0.6191619,-0.0003218539,0.01059182,0
+2012,Republican,First Religion Adjacency,0.2320782,-0.0003218539,0.0009305712,0
+2012,Republican,First Religion CHR Adjacency,0.4476956,-0.0003218539,0.001214498,0
+2012,Republican,Second Religion CHR Adjacency,0.01077822,-0.0003218539,0.001323483,0
+2012,Republican,Third Religion CHR Adjacency,0.01689429,-0.0003218539,0.001309435,0
+2012,Republican,Fourth Religion CHR Adjacency,0.01098308,-0.0003218539,0.001449756,6.217249E-015
+2012,Republican,Median Household Income Adjacency,0.02746044,-0.0003218539,0.0009099901,0
+2012,Republican,Urbanization Level Adjacency,0.1016911,-0.0003218539,0.001017408,0
+2012,Democrat,Geographical adjacency,0.6194515,-0.0003218539,0.01059176,0
+2012,Democrat,First Religion Adjacency,0.2375765,-0.0003218539,0.0009305658,0
+2012,Democrat,First Religion CHR Adjacency,0.4461575,-0.0003218539,0.001214491,0
+2012,Democrat,Second Religion CHR Adjacency,0.01051827,-0.0003218539,0.001323475,2.220446E-016
+2012,Democrat,Third Religion CHR Adjacency,0.01548327,-0.0003218539,0.001309428,0
+2012,Democrat,Fourth Religion CHR Adjacency,0.01091057,-0.0003218539,0.001449747,9.325873E-015
+2012,Democrat,Median Household Income Adjacency,0.02782778,-0.0003218539,0.0009099848,0
+2012,Democrat,Urbanization Level Adjacency,0.1040352,-0.0003218539,0.001017402,0
+2016,Republican,Geographical adjacency,0.6048724,-0.0003218539,0.01059136,0
+2016,Republican,First Religion Adjacency,0.2585688,-0.0003218539,0.0009305307,0
+2016,Republican,First Religion CHR Adjacency,0.5055928,-0.0003218539,0.001214445,0
+2016,Republican,Second Religion CHR Adjacency,0.01335405,-0.0003218539,0.001323425,0
+2016,Republican,Third Religion CHR Adjacency,0.01247968,-0.0003218539,0.001309378,0
+2016,Republican,Fourth Religion CHR Adjacency,0.01711847,-0.0003218539,0.001449693,0
+2016,Republican,Median Household Income Adjacency,0.08372428,-0.0003218539,0.0009099505,0
+2016,Republican,Urbanization Level Adjacency,0.179511,-0.0003218539,0.001017364,0
+2016,Democrat,Geographical adjacency,0.6069526,-0.0003218539,0.01059087,0
+2016,Democrat,First Religion Adjacency,0.2862953,-0.0003218539,0.0009304874,0
+2016,Democrat,First Religion CHR Adjacency,0.4971626,-0.0003218539,0.001214388,0
+2016,Democrat,Second Religion CHR Adjacency,0.01114453,-0.0003218539,0.001323364,0
+2016,Democrat,Third Religion CHR Adjacency,0.009805721,-0.0003218539,0.001309317,0.0000000000000104361
+2016,Democrat,Fourth Religion CHR Adjacency,0.01502573,-0.0003218539,0.001449625,0
+2016,Democrat,Median Household Income Adjacency,0.07456318,-0.0003218539,0.0009099081,0
+2016,Democrat,Urbanization Level Adjacency,0.1765446,-0.0003218539,0.001017316,0
+2020,Republican,Geographical adjacency,0.5964326,-0.0003218539,0.01059168,0
+2020,Republican,First Religion Adjacency,0.2291959,-0.0003218539,0.000930559,0
+2020,Republican,First Religion CHR Adjacency,0.492521,-0.0003218539,0.001214482,0
+2020,Republican,Second Religion CHR Adjacency,0.01317262,-0.0003218539,0.001323466,0
+2020,Republican,Third Religion CHR Adjacency,0.01472684,-0.0003218539,0.001309418,0
+2020,Republican,Fourth Religion CHR Adjacency,0.01755783,-0.0003218539,0.001449737,0
+2020,Republican,Median Household Income Adjacency,0.1049401,-0.0003218539,0.0009099782,0
+2020,Republican,Urbanization Level Adjacency,0.2022066,-0.0003218539,0.001017395,0
+2020,Democrat,Geographical adjacency,0.5983807,-0.0003218539,0.01059161,0
+2020,Democrat,First Religion Adjacency,0.2349533,-0.0003218539,0.0009305525,0
+2020,Democrat,First Religion CHR Adjacency,0.4900599,-0.0003218539,0.001214473,0
+2020,Democrat,Second Religion CHR Adjacency,0.01318949,-0.0003218539,0.001323456,0
+2020,Democrat,Third Religion CHR Adjacency,0.01420664,-0.0003218539,0.001309409,0
+2020,Democrat,Fourth Religion CHR Adjacency,0.01774572,-0.0003218539,0.001449727,0
+2020,Democrat,Median Household Income Adjacency,0.1023443,-0.0003218539,0.0009099719,0
+2020,Democrat,Urbanization Level Adjacency,0.2012412,-0.0003218539,0.001017388,0
+2024,Republican,Geographical adjacency,0.6042822,-0.0003218539,0.01059146,0
+2024,Republican,First Religion Adjacency,0.2186605,-0.0003218539,0.0009305396,0
+2024,Republican,First Religion CHR Adjacency,0.5091182,-0.0003218539,0.001214457,0
+2024,Republican,Second Religion CHR Adjacency,0.01442632,-0.0003218539,0.001323438,0
+2024,Republican,Third Religion CHR Adjacency,0.01511468,-0.0003218539,0.001309391,0
+2024,Republican,Fourth Religion CHR Adjacency,0.01614826,-0.0003218539,0.001449707,0
+2024,Republican,Median Household Income Adjacency,0.1158463,-0.0003218539,0.0009099592,0
+2024,Republican,Urbanization Level Adjacency,0.2047286,-0.0003218539,0.001017373,0
+2024,Democrat,Geographical adjacency,0.6034301,-0.0003218539,0.01059147,0
+2024,Democrat,First Religion Adjacency,0.2212994,-0.0003218539,0.0009305403,0
+2024,Democrat,First Religion CHR Adjacency,0.5049949,-0.0003218539,0.001214458,0
+2024,Democrat,Second Religion CHR Adjacency,0.01496071,-0.0003218539,0.001323439,0
+2024,Democrat,Third Religion CHR Adjacency,0.01430034,-0.0003218539,0.001309392,0
+2024,Democrat,Fourth Religion CHR Adjacency,0.01715249,-0.0003218539,0.001449708,0
+2024,Democrat,Median Household Income Adjacency,0.1116725,-0.0003218539,0.0009099599,0
+2024,Democrat,Urbanization Level Adjacency,0.2068657,-0.0003218539,0.001017374,0
